@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+/* ====================
+   Nav Section
+   ==================== */
+
+
+.navbar .nav-item{
+	padding-right:20px;
+}
+
+.navbar .nav-item:last-child{
+	padding-right:0;
+}
+
+.navbar .nav-item .nav-link{
+  font-size: 22px;
+  font-weight: 600;
+  color: #010101;
+}
+
+.navbar .nav-item .main-nav:hover{
+	color: #636363;
+}
+
+/* ====================
+   Header Section 
+   ==================== */
+#hero-part{
+  background: #fcdb00;
+
+}
+
+/*HERO PART*/
+.hero-containt{
+  margin-top: 73px;
+}
+.home-header{
+  padding: 200px 0px;
+}
+/*BRAND PART*/
+.brand a i{
+  color: #010101;
+  font-size: 50px;
+  padding: 10px 20px;
+}
+.home-header img{
+  border-radius: 15px;
+}
+.navbar-toggler-icon{
+  color: red;
+}
+
+/* ====================
+   Feuter Section 
+   ==================== */
+
+.text{
+  font-size: 20px;
+  font-weight: 550px;
+}
+
+.feuter-section{
+  padding: 100px 0px;
+}
+.feuture-ico-mobile{
+  font-size: 70px;
+  height: 100%;
+  float: left;
+  margin: -16px 40px 0px 0px;
+}
+.feuture-ico-folder{
+  font-size: 50px;
+  height: 100%;
+  float: left;
+  margin: 0px 25px 0px 0px;
+}
+.feuture-ico-code{
+  font-size: 41px;
+  height: 100%;
+  float: left;
+  margin: 0px 25px 0px 0px;
+}
+.feuture-ico-envelope{
+  font-size: 47px;
+  height: 100%;
+  float: left;
+  margin: 0px 25px 0px 0px;
+}
+.feuture-ico-download{
+  font-size: 50px;
+  height: 100%;
+  float: left;
+  margin: 0px 25px 0px 0px;
+}
+.feuture{
+  margin-top: 40px;
+}
+
+/* ====================
+   Touch Section 
+   ==================== */
+
+#touch{
+  padding: 100px 0px;
+  background: #010101;
+}
+.color-yel{
+  color: #fcdb00;
+}
+
+.social-ico{
+  padding: 100px 0px;
+}
+.email-box{
+  padding: 10px;
+  padding: 10px;
+  width: 60%;
+  border-radius: 5px;
+  border: none;
+}
+.submit-btn {
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 10%;
+  border: none;
+  border-radius: 5px;
+  background: #fcdb00;
+  margin: 0 20px;
+}
+.submit-btn:hover{
+  cursor: pointer;
+  background: #caaf00;
+}
+.social-ico a{
+  border-radius: 5px;
+  margin: 8px;
+  background: #fcdb00;
+  padding: 15px
+}
+.social-ico a:hover{
+  background: #caaf00;
+}
+.social-ico a i{
+  color: #000000;
+  font-size: 26px;
+}
